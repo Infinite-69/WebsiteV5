@@ -1,0 +1,89 @@
+/* 
+Author: Jaylord Berberabe
+Created on: 29.7.2020
+*/
+
+body{margin:0px;
+    padding:0px;
+    font-size:25px;
+    font-family:Calibri,Tahoma,Arial;
+    }
+
+    #header {height:150px;
+        width:100%;
+        color:white;         
+        background-color:blue;
+        position:fixed;
+        background-image: url(../Website/background/header.jpg);
+        padding-left:200px;
+        background-size: cover;
+       }
+
+#nav_h {height:50px;
+    width:100%;
+    color:white;
+    background-color:rgb(255, 166, 0);
+    margin-top:150px;
+    position:fixed;
+    padding-left:10px;
+}
+
+   #nav_v {height:1080px;
+    width:210px;
+    color:white;
+    background-color:rgba(30, 255, 0,0.5);
+    float:left;
+    margin-top:200px;
+    position:fixed;
+    display:table-cell;
+    vertical-align: middle;
+    }
+
+    #content {height:750px;
+        border:0px solid black;
+        color:black;
+        background-color:white;
+        margin-left:210px;
+        margin-top:200px;
+        padding:10px;
+        overflow:scroll;
+        overflow-x:hidden;
+        position:fixed;
+      }
+/* Formatierung einzelner Elemente*/
+
+ul {margin:0px;
+    padding:0px;
+    list-style-type:none;
+    width:453px;
+    /*background-color:gray;*/
+    height:50px;
+    margin-left:200px;
+}
+
+ul li{width:150px;
+    height:40px;
+    float:left;
+    border-right:0px solid black;
+    text-align:center;
+    line-height:50px;}
+
+ul li a{
+      text-decoration: none;
+      color:white;
+      display:block;
+}
+
+ul li a:hover{
+      background-color:green;
+}
+
+ul#vk_menue{width:200px;
+    margin-left:0px;
+}
+
+ul#vk_menue li a{text-align:left;
+       color:black;
+       width:200px;
+       padding-left:10px;
+}
